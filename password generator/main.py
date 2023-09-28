@@ -7,7 +7,7 @@ s3 = string.punctuation
 s4 = string.digits
     
 print("------------Password Generator-------------")
-pas = int(input("Enter the length of the password : "))
+pas = int(input("Enter the length of the password : "))  #Todo1: Handle Gibbersish
 
 s = []      
 s.extend(s1)
